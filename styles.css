@@ -1,11 +1,18 @@
 h1 {
+    font-size: 72px;
     text-align: center;
     background-color: blue;
-    font-family: OCR A Std, monospace;
+    font-family: Courier, monospace;
     color: greenyellow;
-    font-size: 24pt;
+    text-shadow: 2px 2px #000000;
 }
 
+p {
+    text-align: center;
+    margin-left: 2in;
+    margin-right: 2in;
+    font-size: 24px;
+}
 
 .mainImg {
         display: block;
@@ -13,23 +20,35 @@ h1 {
         margin-right: auto;
         height: 40vh;
         border: 10px;
+        padding: 10px;
 }
 
 button {
     height: 34px;
     margin: 10px auto;
     display: block;
+    font-weight: bold;
 }
 
 
 h2 {
+    font-size: 35px;
     text-align: center;
     color: 000000;
     border: 3px solid green;
     padding: 10px
 }
 
+table {
+    text-align: center;
+    display: block;
+    margin-left: 3in;
+    margin-right: 3in;
+    font-size: 24px;
+    text-indent: 50px;
+}
 
-
-
-
+h3 {
+    font-size: 25px;
+    text-align: center;
+}
